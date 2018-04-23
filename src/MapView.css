@@ -1,0 +1,37 @@
+.map-view {
+  display: flex;
+  width: 90%;
+  height:100%;
+  position: relative;
+  margin-left: 10%;
+}
+
+.map-view px-map {
+  z-index: 1;
+}
+
+.map-view-toolbar {
+  display: block;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: white;
+  width: 300px;
+  z-index: 100;
+}
+
+.map-view-mode-buttons {
+  display: flex;
+}
+
+.map-view-mode-buttons > .btn {
+  flex: 1 1 auto;
+}
+
+.map-view-mode-buttons > .btn + .btn {
+  margin-left: 0;
+}
+
+.map-view-search {
+  margin: 1rem;
+}
